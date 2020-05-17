@@ -1,5 +1,4 @@
-from primes import *
-from util import *
+from util import gen_rsa, mod_pow_TCR, string_to_int, int_to_string
 import time
 
 def enc(x,n,e):
